@@ -109,4 +109,5 @@ footer {
 
 .carousel-inner img {
   margin: auto;
+  flex-wrap: wrap;
 }
