@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- google font -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya Sans SC">
-	<link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@300&family=Satisfy&display=swap" rel="stylesheet">
 
 	<!-- google icon -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -16,112 +15,181 @@
 
 	<!-- external css -->
 	<link rel="stylesheet" href="./css/style.css">
-	<title>Sample</title>
+	<title>Capstone 1 - Portfolio</title>
 </head>
-<body>
+<body class="container-flex" id="top">
 	<!-- navbar -->
-	<nav>
-		<div>
-		<a href="#intro" class="navbarlink">
-			<span class="material-icons">home</span>Home
-		</a>
-		<a href="#about-me" class="navbarlink">
-			<span class="material-icons">account_box</span>About Me
-		</a>
-		<a href="#tools" class="navbarlink">
-			<span class="material-icons">computer</span>Tools used
-		</a>
-		<a href="#contact" class="navbarlink">
-			<span class="material-icons">phone</span>Contact
-		</a>
-		<a href="#footer" class="navbarlink">
-			<span class="material-icons">alternate_email</span>Social Media
-		</a>
+ 	<nav class="navbar navbar-expand-lg navbar-light text-white">
+			<a href="#top" class="navbarlink">
+				PORTFOLIO
+			</a>
+	 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	 	</button>
+
+	 	<div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		    	<li class="nav-item active">
+					<a href="#top" class="navbarlink">
+						Home
+					</a>
+		    	</li>
+		    	<li class="nav-item">
+		       		<a href="#about-me" class="navbarlink">
+						About Me
+					</a>
+		      	</li>
+		      	<li class="nav-item">
+		       		<a href="#tools" class="navbarlink">
+						Tools used
+					</a>
+		     	</li>
+		     	<li class="nav-item">
+					<a href="#contact" class="navbarlink">
+						Contact
+					</a>
+		     	</li>
+		    </ul>
 		</div>
 	</nav>
 	<!-- end of navbar -->
-
 	<!-- main content -->
-	<main>
-		<section id="intro">
+	<main class="d-flex flex-column">
+		<section id="intro" class="text-center">
 			<h1 id="MyName">Neil Erwin Gopez</h1>
-			<h3>Full  Stack Web Developer</h3>
-			<!-- this buttton  goes to the next section -->
-			<button></button>
+			<h3 id="Profession">Full  Stack Web Developer</h3>
 		</section>
 
-		<section id="about-me">
-			<img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTc5OTk0MjgyMzk5MTE0MzYy/gettyimages-150832381.jpg" alt="Logo">
+		<section id="about-me" class="text-center mt-5">
+			<img src="https://media-exp1.licdn.com/dms/image/C5603AQELYqtvW0L4sg/profile-displayphoto-shrink_800_800/0/1559277053971?e=1643846400&v=beta&t=jQsc0bNtjK37RHBh2-zB4u5e-BYU1ybt7hH-NQSG6Ck" id="idPic">
 			<div>
-		     	<h3>About Me</h3>
-				<p>I'm a Full Stack Web Developer based in the Philippines. My design criteria are:</p>
+		     	<h3 style="text:center;" class="mt-5">About Me</h3>
+				<p>I'm a Full Stack Web Developer based in the Philippines. My design criterias are:</p>
 			</div>
-			<div>
-				<ul>
-					<li>
-						<h4>FAST</h4>
-						<p>Fast load times and lag free interaction, my highest priority.</p>
-					</li>
-					<li>
-						<h4>RESPONSIVE</h4>
-						<p>My layouts will work on any device, big or small.</p>
-					</li>
-					<li>
-						<h4>INTUITIVE</h4>
-						<p>Strong preference for easy to use, intuitive UX/UI.</p>
-					</li>
-					<li>
-						<h4>DYNAMIC</h4>
-						<p>Websites don't have to be static, I love making pages come to life.</p>
-					</li>
-				</ul>
+		<div class="container-flex mt-5 p-3" id="criteria">
+			<div class="criteria row">
+				<div class="criteria1 col-md-6">
+					<h4>Design Website</h4>
+					<p>The appearance of a website theme can be simple and professional. good appearance is very important.</p>
+				</div>
+				<div class="criteria2 col-md-6">
+					<h4>Loading Speed</h4>
+					<p>MA good website appearance will make the website load longer because there are many animations that make visitors comfortable. </p>
+				</div>
+				<div class="w-100"></div>
+				<div class="criteria3 col-md-6">
+					<h4>Website Responsive</h4>
+					<p>A good website is a responsive website.</p>
+				</div>
+				<div class="criteria4 col-md-6">
+					<h4>Interesting and Relevant Content</h4>
+					<p>The last thing you need to pay attention to is the content that you create, the content is very influential on the success of your website.</p>
+				</div>
 			</div>
+		</div>
 		</section>
+
 		<section id="tools">
-			<h3>Toools Used</h3>
-			<ul id="toolsimg">
-				<li>
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="HTML">
-				</li>
-				<li>
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS">
-				</li>
-				<li>
-					<img src="https://www.w3schools.com/whatis/img_js.png" alt="JS">
-				</li>
-			</ul>
+			<h3 class="text-center mt-5">Tools:</h3>
+			<div id="toolsimg" class="row">
+				<img src="https://www.aritsltd.com/img/app_logos/html.png" class="col-md-4 col-6">
+				<img src="https://www.aritsltd.com/img/app_logos/css.png" class="col-md-4 col-6">
+				<img src="https://www.aritsltd.com/img/app_logos/js.png" class="col col-md-4">
+			</div>
 		</section>
-		<section id="contact">
-			<h3>Contact</h3>
-			<p>Have a question or want to work together?</p>
-			<form>
-				<!-- name -->
-				<div class="row">
-						<input type="text" name="name" placeholder="Your name" class="#">
+
+		<!-- carousel -->
+		<div id="carouselExampleFade" class="carousel slide carousel-fade align-items-center" data-ride="carousel">
+			<h3 class="text-center">Sample Works:</h3>
+		  	<div class="carousel-inner">
+		    	<div class="carousel-item active">
+		      		<img class="d-block w-60" src="https://lastresortwebdesign.com/wp-content/uploads/2018/01/sample-zermatt.jpg" alt="First slide">
+		    	</div>
+		   		<div class="carousel-item">
+		     		<img class="d-block w-60" src="https://lastresortwebdesign.com/wp-content/uploads/2018/01/sample-sixty-one1.jpg" alt="Second slide">
+		    	</div>
+		    	<div class="carousel-item">
+		     		<img class="d-block w-60" src="https://lastresortwebdesign.com/wp-content/uploads/2018/01/sample-andros2.jpg" alt="Third slide">
+		    	</div>
+		  	</div>
+		  	<a class="carousel-control-prev w-50" href="#carouselExampleFade" role="button" data-slide="prev">
+		    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    	<span class="sr-only">Previous</span>
+		  	</a>
+		  	<a class="carousel-control-next w-50" href="#carouselExampleFade" role="button" data-slide="next">
+		   		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    	<span class="sr-only">Next</span>
+		  	</a>
+		</div>
+
+
+
+		<div class="row align-items-center justify-items-center flex-column" id="contact">
+			<div class="col-6 col-md-4 my-4">
+				<h2 class="text-center">Contact Us!</h2>
+				<form>
+					<div class="form-group">
+						<label for="txt-name">Name:</label>
+						<input type="text" name="name" id="txt-name" placeholder="First Name, Last Name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="txt-email">Email:</label>
+						<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="txt-textarea">Message:</label>
+						<textarea name="form-control" id="txt-textarea" rows="3" placeholder="Enter your message here." class="form-control"></textarea>
+					</div>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Submit</button>
+					<button type="reset" class="btn btn-danger">Reset</button>
+				</form>
+			</div>	
+		</div>
+
+		<!-- modal -->
+		<div id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="header">								
+						<h5 id="exampleModalLabel" class="modal-title">Message Sent!</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>		
+					<div class="modal-body">
+						Thanks for reaching out. I will get back to you the soonest!
+					</div>
+					<div class="modal-footer">
+						<button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button>	
+					</div>
 				</div>
-				<!-- email -->
-				<div class="row">
-						<input type="email" name="email" placeholder="your@email.com" class="#">
-				</div>
-				<!-- message -->
-				<div class="row">
-						<textarea name="message" id="#" cols="30" rows="10" placeholder="Enter message her." spellcheck="false"></textarea>
-				</div>
-				<!-- submit button -->
-				<button></button>
-				<!-- modal -->
-				<!-- message: Thanks for reaching out. I will get back to you the soonest! -->
-			</form>
-		</section>
+			</div>
+		</div>
+		<!-- end of modal -->
+
+
+
 		<!-- footer -->
-		<footer>
-			<!-- social media links -->
+		<footer class="p-3 mt-5 text-center container-flex">
+			<p class="text-center text-white">
+					You can also reach me on the following Social Media platforms below.
+			</p>
+				<!-- Social Media Accounts -->
+			<div>
+				<a href="https://www.facebook.com/nlrwngpz/" target="_blank" class="mx-3">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/neil-erwin-gopez-aba883187/" target="_blank" class="mx-3">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="https://gitlab.com/LNZPG" target="_blank" class="mx-3">
+					<i class="fab fa-gitlab"></i>
+				</a>
+			</div>
+			<p class="text-center text-white" id="disclaimer">Disclaimer: This presentation is for educational purposes only.</p>
 		</footer>
+	<!-- end footer -->
 	</main>
-
-
-
-
 
 	<!-- js dependencies -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

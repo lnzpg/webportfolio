@@ -2,61 +2,111 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-size: 1rem;
+	font-size:1rem;
+	font-weight: bold;
+	font-family: Montserrat;
 }
 
-nav > div {
+body {
+	background-color: #cccccc;
+}
+
+#MyName  {
+	font-family: Satisfy;
+	font-size: 8rem;
+}
+
+#Profession {
+	font-family: Montserrat !important;
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-family: Satisfy;
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+h4 {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+/*navbar*/
+.navbar {
 	position: fixed;
 	top: 0;
-	left: 0;
-	width: 200px;
-	height: 100%;
-	background: rgb(153, 204, 255);
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	justify-content: center;
+	width: 100%;
+	z-index: 9999;
+	font-weight: 2px solid;
+	background-color: #000000;
+	font-style: #ffffff;
 }
 
-.myName {
-	font-family: 'Comforter', cursive;
-}
-
-.navbarlink {
-	display: flex;
-	align-items: center;
-}
-
-.navbarlink .material-icons {
-	margin: 3px;
-}
-
-main {
-	margin-left: 200px;
-	padding: 10px;
-	color: rgb(77, 77, 77);
-}
-
-
-nav a {
-	display: inline-block;
+.navbar a {
+	float: left;
+	display: block;
 	text-decoration: none;
 	padding: 5px 15px;
 	font-size: 0.9rem;
-	color: rgb(0,0,0);
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 }
 
-nav a:hover {
+.navbar a:hover {
 	color: rgb(255, 255, 255);
 }
 
-.toolsimg {
-	width: 5px;
+#navbarlink {
+	display: flex;
+	align-items: center;
 }
 
-.myname {
 
+
+/*main content*/
+main {
+	margin-top: 100px;
+	display: flex;
+	color: #000000;
+}
+
+.fab {
+	font-size: 2rem;
+	color: white;
+}
+
+section #idPic {
+	border-radius: 300px;
+	height: 300px;
+
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#criteria {
+	background-color: #a3a3c2;
+}
+
+#about-me {
+	background-color: #a3a3c2;
+}
+
+footer {
+	background-color: black;
+}
+
+#disclaimer {
+	color: red !important;
+	font-size: 10px !important;
+}
+
+.carousel-inner img {
+  margin: auto;
 }
