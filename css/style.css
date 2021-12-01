@@ -27,6 +27,12 @@ h3 {
 	font-size: 3rem;
 }
 
+h2 {
+	font-family: Satisfy;
+	font-weight: bold;
+	font-size: 3rem;
+}
+
 h4 {
 	font-family: Montserrat;
 	font-weight: bold;
@@ -54,6 +60,10 @@ h4 {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
+}
+
+.navbar-toggler {
+	color: white;
 }
 
 .navbar a:hover {
